@@ -78,4 +78,22 @@ document.body.innerText = JSON.stringify(sum)
 
 
 
+// bonus - Array Methods cheat sheet
+
+[1, 2, 3, 4].at(1) // 2
+[1, 2, 3, 4].pop() // [1,2,3]
+[1, 2, 3, 4].push() // [1, 2, 3, 4, 5]
+[1, 2, 3, 4].fill(1) // [1, 1, 1, 1]
+[1, 2, 3, 4].join('-') // [1-2-3-4]
+[1, 2, 3, 4].shift() // [2, 3, 4]
+[1, 2, 3, 4].reverse() // [4, 3, 2, 1]
+[1, 2, 3, 4].unshift(1) // [1, 1, 2, 3, 4]
+[1, 2, 3, 4].includes(2) // true
+[1, 2, 3, 4].map(num => num * 2) // [2,4,6,8]
+[1, 2, 3, 4].some(num => num > 3) // true
+[1, 2, 3, 4].find(num => num > 2) // 3
+[1, 2, 3, 4].every(num => num > 3) // false
+[1, 2, 3, 4].filter(num => num > 2) // [3,4]
+[1, 2, 3, 4].findIndex(num => num > 2) // 2
+[1, 2, 3, 4].reduce((acc, num) => acc + num) // 10
 
