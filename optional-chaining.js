@@ -16,12 +16,12 @@ const user = {
    }
 };
 
-// document.body.innerText = JSON.stringify({user});
+document.body.innerText = JSON.stringify({user});
 
-// document.body.innerText = user.address.street; // error
+document.body.innerText = user.address.street; // error
 
-// document.body.innerText = user.address ? user.address.street : "Don't exists"
+document.body.innerText = user.address ? user.address.street : "Don't exists"
 
-// document.body.innerText = user.address?.zip?.code ?? 'Uninformed'; 
+document.body.innerText = user.address?.zip?.code ?? 'Uninformed'; 
 
 document.body.innerText = user.address.showFullAddress?.() // '?.' run function only if exists

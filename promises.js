@@ -1,6 +1,5 @@
 // Promises
 
-/*
 const sumTwoNumbers = (a, b) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -16,9 +15,9 @@ sumTwoNumbers(1, 2)
     .catch(err => {
         console.log(err)
     })
-*/
 
-/*
+
+
 fetch('http://api.github.com/users/thomasdev5832')
     .then(response => {
         response.json().then(body => {
@@ -28,9 +27,7 @@ fetch('http://api.github.com/users/thomasdev5832')
     .catch(err => {
         console.log(err);
     })
-*/
 
-/*
 fetch('http://api.github.com/users/thomasdev5832')
     .then(response => {
         return response.json();
@@ -44,7 +41,6 @@ fetch('http://api.github.com/users/thomasdev5832')
     .finally(() => {
         console.log('ok!');
     })
-*/
 
 // async | await
 
